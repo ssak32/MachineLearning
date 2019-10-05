@@ -1,0 +1,12 @@
+Supervised learning:
+-------------------
+A typical supervised learning task is classification. In supervised learning, the training set you feed to the algorithm includes the desired solutions.
+
+	Here are some of the most important supervised learning algorithms:
+	-	k-Nearest Neighbors
+	-	Linear Regression
+	-	Logistic Regression
+	-	Support Vector Machines (SVMs)
+	-	Decision Trees and Random Forests
+	-	Neural networks2
+
