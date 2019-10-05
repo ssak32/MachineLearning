@@ -10,3 +10,10 @@ A typical supervised learning task is classification. In supervised learning, th
 	-	Decision Trees and Random Forests
 	-	Neural networks2
 
+Root Mean Square Error (RMSE):
+-----------------------------
+RMSE(X,h) = 1m ∑ i=1 m h(x (i) )-y (i)  2
+
+Mean absolute error (MAE):
+-------------------------
+MAE(X,h) = 1 m ∑ i=1 m h (x (i) ) - y (i)
