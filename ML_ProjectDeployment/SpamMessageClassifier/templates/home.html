@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spam Message Classification</title>
+</head>
+<body>
+    <div>
+        <h1>Spam Message Classification</h1>
+
+        <form action="{{url_for('predict')}}" method="POST">
+
+            <textarea name="message" rows="6" cols="50"></textarea>
+            <br/>
+            
+             <input type="submit">Predict</input>
+        </form>
+        <br/>
+    </div>
+</body>
+</html>

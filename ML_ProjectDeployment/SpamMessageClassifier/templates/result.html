@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spam Message Classification</title>
+</head>
+<body>
+    <div>
+        <p><b>Your message is:</b></p>
+
+        {% if prediction == 1 %}
+        <h2>Its a Spam</h2>
+        {% elif prediction == 0 %}
+        <h2>Its a Ham</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
